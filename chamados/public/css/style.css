@@ -1,0 +1,261 @@
+body, html{
+    background-color: rgb(236, 236, 250);
+}
+
+#side-bar{
+    list-style-type: none;
+    padding: 0;
+    float: left;
+}
+
+#side-bar li{
+    padding: 5px;
+    text-align: left;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+#side-bar li:hover{
+    background-color: rgb(26, 77, 155);
+}
+
+#side-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+#content_status{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-status{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 125%;
+}
+
+.content-cards-status{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.cards{
+    width: 80%;
+    height: 100%;
+    float:right;
+    position: relative;
+}
+
+.cards .card{
+    margin-bottom: 5px;
+}
+
+.cards .row{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    float: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.cards .row .col{
+    border: 1px solid black;
+}
+
+.main{
+    width: 80%;
+    float:right;
+    padding: 5%;
+}
+
+.info-chamado{
+    width: 100%;
+    height: 420px;
+}
+
+#descricao-chamado{
+    width: 60%;
+    height: 300px;
+    float: left;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#user-chamado{
+    width: 30%;
+    height: 300px;
+    float: right;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon-user{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#user-chamado .h2{
+    position: fixed;
+    overflow: hidden;
+}
+
+.selects-chamado{
+    width: 60%;
+}
+
+.selects-chamado h4{
+    width: 55%;
+    float: left;
+}
+
+.selects-chamado .col-3{
+    width: 45%;
+    float: right;
+}
+
+#selects-chamado-status{
+    float: right;
+    margin-right: 2.5%;
+}
+
+.comentarios-chamado{
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    float: left;
+}
+
+.comments{
+    float: bottom;
+}
+
+.icon-user-comentario{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+}
+#conteudo_comentario{
+    width: 100%;
+    height: 50%;
+    overflow-y: auto;
+}
+
+.texto-comentario{
+    height: auto;
+    width: auto;
+    margin-left: 8%;
+    margin-right: 10%;
+    padding: 1%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+
+.data-comentario{
+    margin-left: 8%;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#btn-comentario{
+    margin-top: 10px;
+}
+
+#status-h3{
+    float: left;
+    margin-left: 37%;
+}
+
+.content-horarios-chamado{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 30%;
+    height: 200px;
+    float: right;
+    padding: 1%;
+}
+
+.horarios-chamados{
+    width: 99%;
+}
+
+.table-horarios{
+    border:1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.table-horarios th{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.main_pags{
+    width: 85%;
+    float: right;
+}
+
+.users_content{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 475px;
+    overflow-y: auto;
+}
+
+.chamados_users{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titulo-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.chamados-container th{
+    width: 25%;
+}
+
+#conteudo_comentario::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  #conteudo_comentario::-webkit-scrollbar-track {
+    background: rgb(167, 167, 177);       
+  }
+  
+  #conteudo_comentario::-webkit-scrollbar-thumb {
+    background-color: #212529;    
+    border-radius: 20px;
+  }

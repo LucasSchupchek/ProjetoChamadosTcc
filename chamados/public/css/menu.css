@@ -1,0 +1,21 @@
+#side-bar{
+    list-style-type: none;
+    padding: 0;
+    float: left;
+}
+
+#side-bar li{
+    padding: 5px;
+    text-align: left;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+#side-bar li:hover{
+    background-color: rgb(26, 77, 155);
+}
+
+#side-bar a{
+    text-decoration: none;
+    color: white;
+}
